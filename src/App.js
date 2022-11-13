@@ -20,7 +20,7 @@ function App() {
      <BrowserRouter>
      <AppBar />
         <Routes>
-          <Route path='/' exact element={<Home />} />
+          <Route path='/Portfolio' exact element={<Home />} />
           <Route path='/contact' exact element={<Contact />} />
           <Route path='/aboutus' exact element={<About />} />
           <Route path='/resume' exact element={<Resume />} />
