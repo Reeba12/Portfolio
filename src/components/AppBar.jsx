@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom'
 const pages = [
   {
     name: 'Home',
-    route:'/'
+    route:'/Portfolio'
   },
   {
     name: 'About', 
