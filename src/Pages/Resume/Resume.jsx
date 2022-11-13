@@ -57,7 +57,7 @@ const Resume = () => {
                                         applications.</li>
                                 </ul>
                                 <p></p></div>
-                            <div className="resume-item"><h4>Web Developer Intership</h4>
+                            <div className="resume-item"><h4>Web Developer Internship</h4>
                                 <h5>Nov 2021 - Jan 2022</h5>
                                 <p><em>TechPros, Karachi, Pakistan</em></p>
                                 <p></p>

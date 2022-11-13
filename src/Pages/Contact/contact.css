@@ -110,10 +110,10 @@ section .container {
   .info-box {
     color: #444444;
     padding: 20px;
-    width: 100%;
+    width: 80vw;
     background: rgba(255, 255, 255, 0.08);
     text-align: left;
-    margin-bottom: 20px;
+    margin: 15px 0;
 }
 input {
   border-radius: 0;
@@ -170,4 +170,10 @@ input {
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
+}
+.contact_btn{
+  padding: 10px 20px;
+  background-color: #86C232;
+  color: #fff;
+  font-weight: bold;
 }

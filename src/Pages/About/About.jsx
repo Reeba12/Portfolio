@@ -17,8 +17,8 @@ const About = () => {
           <div class="row">
             <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
               <h3>Web Developer</h3>
-              <p class="fst-italic"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p> Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</p>
+              <p class="fst-italic"> I'm a professional enthusiastic and passionate website developer. It is a pleasure to have you go through my profile..</p>
+              <p> I am a web developer having experience in frontend, database, and backend to develop responsive web applications. I worked on web-based applications which includes developing dynamic UI's on React, Deployment, and responsive. I am currently doing BSCS from Dawood University of Engineering & Technology. I am aware of project managing tools like GitHub, firebase.</p>
               <div class="row">
                 <div class="col-lg-6">
                   <ul>

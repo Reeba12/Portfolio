@@ -39,6 +39,7 @@ const Contactus = () => {
               <input type="text" name="name" className="form-control" id="name" placeholder="Your Email" required=""></input>
               <h6>Your Message</h6>
               <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
+              <button className='contact_btn'>Submit</button>
             </div>
             <div className="col-lg-6 col-sm-12 contact_right_img">
               <div class="col-md-12 d-flex align-items-stretch">
