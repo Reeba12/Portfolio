@@ -1,0 +1,200 @@
+.main{
+    display: flex;
+    padding: 40px;
+    
+}
+.socialIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 40px;
+    height: 70vh;
+}
+.content{
+    padding: 40px 70px;
+    color: #aaaaaa;
+}
+.title{
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.textinfo{
+    width: 50%;
+    /* border: 1px solid blue; */
+}
+.socialIcon::after{
+    content: "";
+    width: 1px;
+    height: 120px;
+    display: inline-block;
+    background: #86C232;
+    margin: 4px 10px;
+}
+.btn,.btn2 {
+    transform: translate(-1%, -10%);
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 60px;
+    padding: 0px 10px;
+    text-align: center;
+    transition: 0.5;
+    overflow: hidden;
+    color: #86C232;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
+.btn2{
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+    transition: 0.5;
+    overflow: hidden;
+    color: #86C232;
+    font-weight: bold;
+    border: 1px solid #fff;
+    margin: 0 10px; 
+    border-radius: 5px;
+}
+.btn2:hover{
+    color: #ffff;
+}
+.homebtn{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    /*    background: #F00;*/
+    z-index: -1;
+    transition: 1s;
+    border-style: solid;
+    border-color: #ffff;
+    border-width: 80px 100px;
+    transform: rotate(360deg);
+    transform-origin: top left
+}
+
+.btn:hover:before {
+    border-color: #86C232;
+    transform: rotate(40deg);
+}
+
+.btn:hover {
+    color: #fff;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
+@media (max-width:900px) {
+    .content{
+        padding: 20px 40px;
+        color: #aaaaaa;
+    }
+    .title{
+        margin: 0;
+        margin: -15px 0 15px 0;
+        font-size: 45px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+    }
+    .textinfo{
+        width: 90%;
+        color: #86C232;
+        /* border: 1px solid blue; */
+    }
+    .socialIcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 10px;
+        height: 70vh;
+    }
+}
+@media (max-width:700px) {
+    .content{
+        padding: 20px 20px;
+        color: #aaaaaa;
+    }
+    .title{
+        margin: 0;
+        margin: -15px 0 15px 0;
+        font-size: 35px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+    }
+    .btn,.btn2 {
+        transform: translate(-1%, -10%);
+        text-decoration: none;
+        text-transform: uppercase;
+        line-height: 20px;
+        padding: 10px;
+        text-align: center;
+        transition: 0.5;
+        overflow: hidden;
+        color: #86C232;
+        /* font-weight: bold; */
+        border: 1px solid #fff;
+    }
+    .btn2{
+        text-decoration: none;
+        text-transform: uppercase;
+        line-height: 20px;
+        text-align: center;
+        transition: 0.5;
+        overflow: hidden;
+        color: #86C232;
+        /* font-weight: bold; */
+        border: 1px solid #fff;
+        margin: 0 0px; 
+        border-radius: 5px;
+    }
+    .homebtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 30px;
+        /* border: 1px solid red; */
+        height: 100px;
+    }
+    .main{
+        display: block;
+        padding: 40px;
+    }
+    .socialIcon{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 10px;
+        height: 10vh;
+    }
+    .socialIcon::after{
+        content: "";
+        width: 120px;
+        height: 1px;
+        display: inline-block;
+        background: #86C232;
+        /* margin: 4px 10px; */
+    }
+}

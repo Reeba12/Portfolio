@@ -1,0 +1,89 @@
+.cont {
+    margin: 20px 45px;
+    position: relative;
+    /* width: 50%; */
+    --color: #8A9B0F; /* the border color */
+  --border: 1px;   /* the border thickness*/
+  --offset: 10px;   /* control the offset*/
+  --gap: 1px;       /* the gap on hover */
+  
+  --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
+  --_o: calc(3*var(--offset));
+  padding: 
+    calc(var(--gap) + var(--border))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border));
+  background: 
+    linear-gradient(      var(--_c)) var(--_o) var(--_o), 
+    linear-gradient(90deg,var(--_c)) var(--_o) var(--_o);
+  background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
+  background-repeat: no-repeat;
+  filter: grayscale(.4);
+  transition: .5s;
+  cursor: pointer;
+  }
+  .cont:hover{
+    background-position: 0px 0px;
+  background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
+  filter: grayscale(0);
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 170px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .cont:hover .image {
+    opacity: 0.3;
+  }
+  
+  .cont:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .title{
+    color: white;
+    font-family: 'Poppins';
+  }
+  .para{
+    font-family: 'Poppins';
+    font-size: 1em;
+    color: #fff;
+    /* text-align: justify; */
+  }
+  .para1{
+    font-family: 'Poppins';
+    color: #fff;
+    text-align: center;
+  }
+  .icon3{
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%) !important;
+    padding: 10px;
+  }
+  .input-group{
+    font-family: 'Poppins';
+    width: 80% !important;
+    padding-left: 70px;
+  }

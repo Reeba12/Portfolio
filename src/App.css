@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+ 
+  background-image: url('./assests/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffff;
+  height: 100vh;
+  /* background-position: cover; */
 }
 
 .App-logo {
