@@ -6,6 +6,7 @@ import pharmacy from '../../assests/pharmacy.png'
 import upet from '../../assests/upet.png'
 import ehsaas from '../../assests/ehsaas.png'
 import context from '../../assests/context.png'
+import signup from '../../assests/signup.png'
 import foodapp from '../../assests/food.png'
 import './ProjectGallery.css'
 import { FiLink } from 'react-icons/fi'
@@ -74,6 +75,12 @@ const ProjectGallery = () => {
               projectName="Context Sample Page"
               githublink="https://github.com/Reeba12/context/"
               live="https://reeba12.github.io/context/"
+            />
+            <PortfolioImg
+              image={signup}
+              projectName="SignUp Sample"
+              githublink="https://github.com/Reeba12/loginSignup-sample"
+              live="https://tangerine-semolina-3fbeb0.netlify.app/"
             />
             <PortfolioImg
               image={foodapp}
