@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.4a2bfd1c.css",
+    "main.js": "/Portfolio/static/js/main.20da0680.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/netfilx.png": "/Portfolio/static/media/netfilx.293b78d5b4797456a5f8.png",
+    "static/media/educational.png": "/Portfolio/static/media/educational.68d6e5ad5408c89623bb.png",
+    "static/media/food.png": "/Portfolio/static/media/food.84d7668caf8dbf7e8cdf.png",
+    "static/media/envelope.png": "/Portfolio/static/media/envelope.62fa4446176f7b9d9855.png",
+    "static/media/ehsaas.png": "/Portfolio/static/media/ehsaas.6b7fd58023ae8ac6c00f.png",
+    "static/media/covid.png": "/Portfolio/static/media/covid.5cc0ac69a95d09953008.png",
+    "static/media/pharmacy.png": "/Portfolio/static/media/pharmacy.df165946b0ae902fb4d4.png",
+    "static/media/context.png": "/Portfolio/static/media/context.2413dcedda70a66a8a7b.png",
+    "static/media/facebook.png": "/Portfolio/static/media/facebook.8e2357b99ffea21c8a1c.png",
+    "static/media/upet.png": "/Portfolio/static/media/upet.add21b3dd07914337c89.png",
+    "static/media/linkedin.png": "/Portfolio/static/media/linkedin.c234a0fdac8285e965f7.png",
+    "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.4a2bfd1c.css.map": "/Portfolio/static/css/main.4a2bfd1c.css.map",
+    "main.20da0680.js.map": "/Portfolio/static/js/main.20da0680.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a2bfd1c.css",
+    "static/js/main.20da0680.js"
+  ]
+}
