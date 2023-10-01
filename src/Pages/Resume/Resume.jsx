@@ -40,8 +40,20 @@ const Resume = () => {
                         </div>
                         <div className="col-lg-6">
                             <h3 className="resume-title">Professional Experience</h3>
-                            <div className="resume-item"><h4>Full Stack Developer</h4>
-                                <h5>Feb 2022 - Present</h5>
+                            <div className="resume-item"><h4>Software Engineer</h4>
+                                <h5>Jan 2023 - Present</h5>
+                                <p><em>GreenSign, Karachi, Pakistan </em></p>
+                                <p></p>
+                                <ul>
+                                    <li>Handling Frontend and Backend both.</li>
+                                    <li>Responsible for Design and Functionalities.</li>
+                                    <li>In addition to learning the specialized skills of a particular
+                                        field, transferable skills such as communication and
+                                        teamwork.</li>
+                                </ul>
+                                <p></p></div>
+                            <div className="resume-item"><h4>Software Engineer</h4>
+                                <h5>Feb 2022 - Dec 2022</h5>
                                 <p><em>NocodeAi, Karachi, Pakistan </em></p>
                                 <p></p>
                                 <ul>
